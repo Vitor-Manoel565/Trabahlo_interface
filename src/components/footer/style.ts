@@ -4,10 +4,12 @@ export const containerFooter = styled.div`
   width: 100%;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
 `;
 
 export const containerContact = styled.div`
   width: 100%;
+  max-width: 50%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -15,6 +17,7 @@ export const containerContact = styled.div`
 
 export const containerAddress = styled.div`
   width: 100%;
+  max-width: 50%;
   height: auto;
   display: flex;
   flex-direction: column;
